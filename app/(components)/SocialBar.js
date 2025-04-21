@@ -10,7 +10,7 @@ export default function SocialBar() {
           href="https://facebook.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-gray-600 hover:text-blue-600 transition"
+          className="text-white hover:text-blue-500 transition"
         >
           <FacebookIcon fontSize="large" />
         </a>
@@ -18,7 +18,7 @@ export default function SocialBar() {
           href="https://linkedin.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-gray-600 hover:text-blue-700 transition"
+          className="text-white hover:text-blue-500 transition"
         >
           <LinkedInIcon fontSize="large" />
         </a>
@@ -26,7 +26,7 @@ export default function SocialBar() {
           href="https://github.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-gray-600 hover:text-black transition"
+          className="text-white hover:text-black transition"
         >
           <GitHubIcon fontSize="large" />
         </a>

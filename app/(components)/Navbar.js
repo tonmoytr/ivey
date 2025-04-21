@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../../public/ivey.webp";
+import logo from "../../public/ivey.png";
 
 export default function Navbar() {
   return (
@@ -12,14 +12,14 @@ export default function Navbar() {
         </Link>
 
         {/* Nav Menu */}
-        <div className="hidden md:flex space-x-6 text-white">
-          <Link href="/" className="hover:text-blue-600 transition">
+        <div className="hidden md:flex items-center space-x-6 text-white">
+          <Link href="/" className="hover:text-blue-400 transition">
             Home
           </Link>
-          <Link href="#services" className="hover:text-blue-600 transition">
+          <Link href="#services" className="hover:text-blue-400 transition">
             Services
           </Link>
-          <Link href="/contact" className="hover:text-blue-600 transition">
+          <Link href="/contact" className="bg-blue-300 px-4 py-2 rounded-xl text-xl font-semibold hover:text-black ml-2 transition">
             Contact
           </Link>
         </div>
