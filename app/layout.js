@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
       >
         <header>
           <SocialBar />
-          <div className="bg-gray-800">
+          <div className="bg-gray-900">
             <Navbar />
           </div>
         </header>

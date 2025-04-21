@@ -1,4 +1,5 @@
 import Banner from "./(components)/Banner";
+import Footer from "./(components)/Footer";
 import Services from "./(components)/Services";
 import TechMarquee from "./(components)/TechMarquee";
 
@@ -12,6 +13,7 @@ export default function page() {
       <div className="flex flex-col justify-end my-20 ">
         <TechMarquee />
       </div>
+      <Footer/>
     </div>
   );
 }

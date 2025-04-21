@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import logo from "../../public/ivey.png";
+import ContactButton from "./ContactButton";
 
 export default function Navbar() {
   return (
@@ -13,15 +14,19 @@ export default function Navbar() {
 
         {/* Nav Menu */}
         <div className="hidden md:flex items-center space-x-6 text-white">
-          <Link href="/" className="hover:text-blue-400 transition">
+          <Link
+            href="/"
+            className="hover:text-blue-400 hover:border hover:border-gray-400 hover:px-2 hover:p-1 transition"
+          >
             Home
           </Link>
-          <Link href="#services" className="hover:text-blue-400 transition">
+          <Link
+            href="#services"
+            className="hover:text-blue-400 hover:border hover:border-gray-400 hover:px-2 hover:p-1 transition"
+          >
             Services
           </Link>
-          <Link href="/contact" className="bg-blue-300 px-4 py-2 rounded-xl text-xl font-semibold hover:text-black ml-2 transition">
-            Contact
-          </Link>
+          <ContactButton/>
         </div>
       </div>
     </nav>

@@ -21,7 +21,7 @@ const techLogos = [
 
 export default function TechMarquee() {
   return (
-    <div className="w-full py-6 bg-gray-900">
+    <div className="w-full py-6 ">
       <Marquee speed={50} pauseOnHover={true}>
         {/* {techLogos.map((logo, idx) => (
           <div key={idx} className="mx-6 flex items-center justify-center">
@@ -37,32 +37,32 @@ export default function TechMarquee() {
         <Image
           src={js}
           alt="Js logo"
-          className="w-20 h-auto md:w-30 md:h-auto mx-10 rounded-2xl"
+          className="w-12 h-auto md:w-16 md:h-auto mx-10 rounded-2xl"
         />
         <Image
           src={react}
           alt="Js logo"
-          className="w-20 h-auto md:w-30 md:h-auto mx-10 rounded-2xl"
+          className="w-12 h-auto md:w-16 md:h-auto mx-10 rounded-2xl"
         />
         <Image
           src={tail}
           alt="Js logo"
-          className="w-20 h-auto md:w-30 md:h-auto mx-10 rounded-2xl"
+          className="w-12 h-auto md:w-16 md:h-auto mx-10 rounded-2xl"
         />
         <Image
           src={next}
           alt="Js logo"
-          className="w-20 h-auto md:w-30 md:h-auto mx-10 rounded-2xl"
+          className="w-12 h-auto md:w-16 md:h-auto mx-10 rounded-2xl"
         />
         <Image
           src={vite}
           alt="Js logo"
-          className="w-20 h-auto md:w-30 md:h-auto mx-10 rounded-2xl"
+          className="w-12 h-auto md:w-16 md:h-auto mx-10 rounded-2xl"
         />
         <Image
           src={mongo}
           alt="Js logo"
-          className="w-20 h-auto md:w-30 md:h-auto mx-10 rounded-2xl"
+          className="w-12 h-auto md:w-16 md:h-auto mx-10 rounded-2xl"
         />
       </Marquee>
     </div>
