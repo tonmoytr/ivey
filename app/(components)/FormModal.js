@@ -32,7 +32,7 @@ export default function FormModal({ isOpen, onClose }) {
           &times;
         </button>
 
-        <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
+        <h2 className="text-2xl text-black text-center font-semibold mb-4">Contact Us</h2>
 
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
           <input
